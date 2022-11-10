@@ -7,9 +7,9 @@ If codeword is correct
 Returns 'Correct! Come in'
 """
 
-def correct_codeword ():
+def test_correct_codeword ():
     result = check_codeword("horse")
-    assert result == "Correct! Come in"
+    assert result == "Correct! Come in."
 
 """
 If codeword is wrong
